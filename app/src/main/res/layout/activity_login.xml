@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorButtonNormal"
+    tools:context="com.example.yiyisman.prototipo.Login">
+
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="298dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/imageButton3"
+        android:layout_below="@+id/imageButton"
+        android:layout_marginTop="23dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/email"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="190dp"
+        android:layout_height="182dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="298dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/imageButton3"
+        android:layout_below="@+id/imageButton3"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/goo"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="298dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/face"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="298dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/imageButton2"
+        android:layout_below="@+id/imageButton2"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/twi"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="Registrate aqui"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        tools:text="Registarte aqui" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="No tienes cuenta?"
+        android:textSize="24sp" />
+
+</RelativeLayout>
